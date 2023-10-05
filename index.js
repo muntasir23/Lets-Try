@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(cors())
 
 
-app.use(express.static('public'))
+app.use(express.static('Public'))
 
 
 mongoose.connect('mongodb+srv://muntasiraahmed3:FUgU97yOz0FW0u44@blog.hdeqtmj.mongodb.net/?retryWrites=true&w=majority');
