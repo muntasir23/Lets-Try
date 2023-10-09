@@ -3,9 +3,11 @@ const mongoose = require('mongoose')
 const PostStudentSchema = new mongoose.Schema({
     title:String,
     description:String,
-    // email:String,
     presents:Number,
-    days:Number
+    days:Number,
+    reg:Number,
+    roll:Number,
+    cata:String
 })
 
 const PostStudentModel = mongoose.model('postStudent', PostStudentSchema)
