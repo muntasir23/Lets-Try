@@ -106,7 +106,10 @@ app.put('/editstudent/:id', (req, res) =>{
         title:req.body.title, 
         description:req.body.description,
         presents:req.body.presents,
-        days:req.body.days
+        days:req.body.days,
+        reg:req.body.reg,
+        roll:req.body.roll,
+        cata:req.body.cata
     })
         .then(result => res.json("Succes"))
         .catch(err => res.json(err))
